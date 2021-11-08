@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body{
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font: ;
+    
+}
+.container{
+    width: 600px;
+    padding: 20px;
+    margin: 15px;
+    text-align: justify;
+    background: white;
+    border-radius: 5px;
+
+}
+header{
+    display: grid;
+}
+figure>img{
+width: 100%;
+height: 250px;
+
+padding: 2px;
+border-radius: 5px;
+}
+
+figure figcaption{
+    color: #8F8F8F;
+    text-align: end;
+}
+
+section{
+    padding: 5px;
+    display: grid;
+    background: #FFFFFF;
+    
+}
+section>ul>li{
+    list-style-position: outside;
+}
+h2{
+    padding: 5px;
+    color: #1B1B1B;
+}
+footer p{
+    height: 100px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+
+    color: #8F8F8F;
+
+}
